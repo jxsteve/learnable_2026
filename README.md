@@ -29,33 +29,6 @@ In simple terms:
 ## Git Rebase (Simple Explanation)
 Git rebase is used to move your branch on top of another branch, making the commit history cleaner and more linear.
 
-Command:
-```bash
-git rebase main
 Git Cherry-pick in Simple Terms
 
 Git cherry-pick is used when you want to copy a specific commit from one branch and apply it to another branch.
-
-Example command:
-git cherry-pick <commit-hash>
-This means: take one specific commit and apply it here.
-
-
----
-
-## 5) Save the changes and commit them
-
-After saving `README.md`, run:
-
-```bash
-git add README.md
-git commit -m "Update README with version control concepts"
-
-What this does:
-
-git add README.md stages the file
-git commit -m "..." saves the changes in Git history
-
-You can check status anytime with:
-
-git status
